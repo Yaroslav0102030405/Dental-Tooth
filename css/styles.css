@@ -23,13 +23,13 @@
 
 /* Base settings */
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 /* Базовые настройки ------------ */
@@ -48,18 +48,28 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: Source Sans, Segoe UI;
+  font-family:
+    Source Sans,
+    Segoe UI;
+
+  color: #fff;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
 }
 
 /* Создание контейнера ----------- */
 .container {
+  max-width: 1600px;
+  /* width: 1600px; */
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
-@media screen and (min-width: 360px) {
+/* @media screen and (min-width: 360px) {
   .container {
-    width: 480px;
+    width: 360px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -69,10 +79,9 @@ body {
 }
 @media screen and (min-width: 1600px) {
   .container {
-    width: 1200px;
+    width: 1600px;
   }
-}
-
+} */
 
 /* Личный нормализатор -------------- */
 h1,
@@ -108,7 +117,7 @@ img {
   height: auto;
   /* margin: 0px;
   padding: 0px; */
-}/*# sourceMappingURL=base.css
+} /*# sourceMappingURL=base.css
 
 /* скрыть заголовок */
 .visually-hidden {
@@ -118,4 +127,80 @@ img {
   width: 1px;
   height: 1px;
   overflow: hidden;
+}
+
+address {
+  font-style: normal;
+}
+
+:root {
+  --backround: #2378c9;
+  --white: #ffffff;
+}
+
+/* header section */
+.header {
+  background-color: var(--backround);
+  /* color: var(--white); */
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--white);
+}
+
+.address__left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.address__left a {
+  color: var(--white);
+  font-size: 16px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.address__right {
+  display: flex;
+  align-items: center;
+}
+
+.address__right a {
+  display: flex;
+  align-items: center;
+  color: var(--white);
+  font-size: 16px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.address__right a:first-child {
+  margin-left: 40px;
+}
+
+.address__right svg {
+  margin-right: 11px;
+}
+
+.header__social {
+  display: flex;
+  gap: 31px;
+  margin-left: 55px;
+}
+
+.header__social svg {
+  margin-right: 0;
+}
+
+.header__social li:hover {
+  transition: 500ms ease;
+  transform: rotate(360deg);
+}
+
+.margin-right {
+  margin-right: 40px;
 }
