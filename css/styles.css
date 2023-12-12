@@ -419,3 +419,59 @@ address {
   font-weight: 400;
   line-height: 160.2%; /* 28.836px */
 }
+
+/* sextion-4 */
+
+.section-5 {
+  padding-top: 91px;
+  padding-bottom: 119px;
+}
+
+.section-5-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.section-5-list-backround {
+  border-radius: 0 0 20px 20px;
+  background: #2378c9;
+  box-shadow: 0px 0px 8px -1px rgba(29, 28, 28, 0.28);
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.section-5-list-backround h3 {
+  padding-left: 24px;
+  /* padding-top: 22px; */
+  margin-bottom: 7px;
+}
+
+.section-5-list-backround p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 24px;
+}
+
+.section-5-title {
+  margin-bottom: 20px;
+  color: var(--title-color);
+
+text-align: center;
+font-size: 52px;
+font-weight: 400;
+}
+
+.section-5-text {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 45px;
+  width: 474px;
+  color: #302D2D;
+
+text-align: center;
+font-size: 16px;
+font-weight: 300;
+line-height: 1.75; /* 25.632px */
+}
