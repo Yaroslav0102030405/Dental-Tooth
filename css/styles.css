@@ -458,9 +458,9 @@ address {
   margin-bottom: 20px;
   color: var(--title-color);
 
-text-align: center;
-font-size: 52px;
-font-weight: 400;
+  text-align: center;
+  font-size: 52px;
+  font-weight: 400;
 }
 
 .section-5-text {
@@ -468,10 +468,57 @@ font-weight: 400;
   margin-right: auto;
   margin-bottom: 45px;
   width: 474px;
-  color: #302D2D;
+  color: #302d2d;
 
-text-align: center;
-font-size: 16px;
-font-weight: 300;
-line-height: 1.75; /* 25.632px */
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.75; /* 25.632px */
+}
+
+/* section-6 */
+
+.section-6 {
+  padding-top: 75px;
+  padding-bottom: 103px;
+  background-color: #dfeefc;
+}
+
+.wapper {
+  display: flex;
+}
+
+.section-6-left {
+  padding: 55px 61px;
+  width: 712px;
+  height: 628px;
+  background-color: #5eb8f0;
+  border-radius: 20px;
+}
+
+.section-6-left-title {
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 47px;
+  font-weight: 400;
+}
+
+.section-6-left-text {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 72px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.section-6-left-item span {
+  margin-left: auto;
+  margin-left: 399px;
+}
+
+/* section-7 */
+
+.section-7-list {
+  display: flex;
 }
