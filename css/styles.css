@@ -138,6 +138,7 @@ address {
   --backround: #2378c9;
   --white: #ffffff;
   --title-color: #302d2d;
+  --hero-backround: #0e6eaa;
 }
 
 /* header section */
@@ -236,9 +237,62 @@ address {
 .header-menu li a {
   padding-top: 7px;
   padding-bottom: 7px;
-  
+
   color: var(--title-color);
 
   font-size: 18px;
   font-weight: 400;
+}
+
+/* hero section */
+.hero {
+  padding-top: 177px;
+  height: 681px;
+  background-color: var(--hero-backround);
+  background-image: url(../image/hero-pngegg.png), url(../image/hero.png);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.hero-top-text {
+  margin-top: 0;
+  margin-bottom: 11px;
+  color: #c5c1fe;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* .hero-top-text::before {
+  content: '';
+  top: 0;
+  left: 0;
+  width: 185px;
+  height: 1px;
+  background: #c5c1fe;
+} */
+
+.hero__title {
+  margin-bottom: 21px;
+  color: var(--white);
+  width: 485px;
+
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.hero__text {
+  margin-bottom: 26px;
+  width: 460px;
+  font-size: 18px;
+}
+
+.hero__btn {
+  padding: 18px 43px;
+  font-family: inherit;
+  color: var(--white);
+  border: none;
+
+  border-radius: 29.5px;
+  background: #5eb8f0;
 }
