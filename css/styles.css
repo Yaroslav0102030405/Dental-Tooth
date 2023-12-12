@@ -62,7 +62,7 @@ body {
 
 /* Создание контейнера ----------- */
 .container {
-  max-width: 1600px;
+  max-width: 1300px;
   /* width: 1600px; */
   padding-left: 15px;
   padding-right: 15px;
@@ -244,13 +244,19 @@ address {
   font-weight: 400;
 }
 
+.header-menu li a:hover {
+  /* padding: 5px; */
+  color: #5eb8f0;
+  /* border: 1px solid black; */
+}
+
 /* hero section */
 .hero {
   padding-top: 177px;
   height: 681px;
   background-color: var(--hero-backround);
   background-image: url(../image/hero-pngegg.png), url(../image/hero.png);
-  background-position: right;
+  background-position: calc(73%);
   background-repeat: no-repeat;
 }
 
@@ -295,4 +301,121 @@ address {
 
   border-radius: 29.5px;
   background: #5eb8f0;
+}
+
+/* section-3 */
+
+.section-3 {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  /* display: flex; */
+}
+
+.section-flex {
+  display: flex;
+  gap: 50px;
+}
+
+.section-3-right {
+  width: 488px;
+  height: 560px;
+}
+
+.section-3-left {
+  padding-top: 50px;
+}
+
+.section-3-left-title {
+  margin-bottom: 33px;
+  width: 728px;
+  color: var(--title-color);
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.section-3-left-title span {
+  color: #2378c9;
+}
+
+.section-3-left-text {
+  margin-bottom: 22px;
+  color: #6b6868;
+
+  width: 597px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+.section-3-left-desc {
+  margin-top: 0;
+  margin-bottom: 18px;
+  color: var(--title-color);
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+.section-3-left-list {
+  /* margin-right: 50px; */
+  color: var(--title-color);
+  font-size: 20.251px;
+  font-weight: 400;
+}
+
+.section-3-left-list-2 {
+  color: var(--title-color);
+  font-size: 20.251px;
+  font-weight: 400;
+}
+
+.section-3-left-item {
+  margin-bottom: 20px;
+}
+
+.section-3-botton {
+  display: flex;
+  gap: 50px;
+}
+
+/* section-4 */
+.section-4 {
+  padding-top: 119px;
+  padding-bottom: 100px;
+  background-color: #dfeefc;
+}
+
+.section-4 svg {
+  background-color: #2378c9;
+  border: 3px solid #67a9e9;
+  border-radius: 50%;
+}
+
+.secti0n-4-list {
+  display: flex;
+  /* align-items: center; */
+  text-align: center;
+  justify-content: space-around;
+}
+
+.secti0n-4-list-title {
+  width: 310px;
+
+  color: var(--title-color);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.section-4-list-text {
+  width: 326px;
+
+  color: #56565e;
+
+  text-align: center;
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160.2%; /* 28.836px */
 }
