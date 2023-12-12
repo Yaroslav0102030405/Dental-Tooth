@@ -62,7 +62,7 @@ body {
 
 /* Создание контейнера ----------- */
 .container {
-  max-width: 1300px;
+  max-width: 1240px;
   /* width: 1600px; */
   padding-left: 15px;
   padding-right: 15px;
@@ -256,7 +256,7 @@ address {
   height: 681px;
   background-color: var(--hero-backround);
   background-image: url(../image/hero-pngegg.png), url(../image/hero.png);
-  background-position: calc(73%);
+  background-position: calc(68%);
   background-repeat: no-repeat;
 }
 
@@ -322,14 +322,14 @@ address {
 }
 
 .section-3-left {
-  padding-top: 50px;
+  padding-top: 10px;
 }
 
 .section-3-left-title {
   margin-bottom: 33px;
   width: 728px;
   color: var(--title-color);
-  font-size: 52px;
+  font-size: 48px;
   font-weight: 700;
 }
 
