@@ -52,6 +52,7 @@ body {
     Source Sans,
     Segoe UI;
 
+  /* background-color: var(--white); */
   color: #fff;
 
   font-size: 16px;
@@ -136,12 +137,13 @@ address {
 :root {
   --backround: #2378c9;
   --white: #ffffff;
+  --title-color: #302d2d;
 }
 
 /* header section */
-.header {
+
+.backround {
   background-color: var(--backround);
-  /* color: var(--white); */
 }
 
 .header__top {
@@ -203,4 +205,40 @@ address {
 
 .margin-right {
   margin-right: 40px;
+}
+
+.header__botton {
+  padding-top: 25px;
+  padding-bottom: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--white);
+}
+
+.btn {
+  display: inline-flex;
+  padding: 17px 29px;
+  border: none;
+  background-color: #f86d6d;
+  border-radius: 26px;
+  color: var(--white);
+
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.header-menu {
+  display: flex;
+  gap: 39px;
+}
+
+.header-menu li a {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  
+  color: var(--title-color);
+
+  font-size: 18px;
+  font-weight: 400;
 }
