@@ -482,6 +482,8 @@ address {
   padding-top: 75px;
   padding-bottom: 103px;
   background-color: #dfeefc;
+  background-image: url(../image/Group\ 178.jpg);
+  background-repeat: no-repeat;
 }
 
 .wapper {
@@ -515,6 +517,10 @@ address {
 .section-6-left-item span {
   margin-left: auto;
   margin-left: 399px;
+}
+
+.section-6 li {
+  
 }
 
 /* section-7 */
@@ -595,7 +601,7 @@ address {
 .section-8 {
   padding-top: 90px;
   padding-bottom: 90px;
-  width: 1600px;
+  /* width: 1600px; */
   height: 690px;
   background-image: url(../image/section-8.jpg);
   background-repeat: no-repeat;
@@ -726,6 +732,7 @@ form p {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  flex-wrap: wrap;
 }
 
 /* footer section */
@@ -746,6 +753,7 @@ form p {
 .footer-top {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .footer h3 {
