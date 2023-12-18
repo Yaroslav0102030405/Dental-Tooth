@@ -639,7 +639,7 @@ margin-right: auto;
 }
 
 .sectiont-8-wapper {
-  position: relative;
+  /* position: relative; */
   padding-top: 55px;
   margin: 0 auto;
   max-width: 1060px;
@@ -696,6 +696,17 @@ margin-right: auto;
   gap: 20px;
 }
 
+/* .section-8-left {
+  display: flex;
+} */
+
+.carusel-wapper2 {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 42px;
+}
+
 .section-8-svg {
   padding-top: 7px;
   padding-bottom: 7px;
@@ -710,9 +721,9 @@ margin-right: auto;
 
 .carousel-control-prev {
   /* position: absolute; */
-  position: absolute;
-  top: 50%;
-  left: -32px;
+  /* position: absolute; */
+  top: 45%;
+  left: 38px;
   width: 60px;
   height: 60px;
   background-color: #c5c1fe;
@@ -721,9 +732,9 @@ margin-right: auto;
 
 .carousel-control-next {
   /* position: absolute; */
-  position: absolute;
-  top: 50%;
-  right: -32px;
+  /* position: absolute; */
+  top: 45%;
+  right: 38px;
   width: 60px;
   height: 60px;
   background-color: #c5c1fe;
