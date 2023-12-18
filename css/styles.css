@@ -210,7 +210,7 @@ address {
 
 .header__botton {
   padding-top: 25px;
-  padding-bottom: 14px;
+  padding-bottom: 25px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -250,6 +250,10 @@ address {
   /* border: 1px solid black; */
 }
 
+.header-menu li a.current {
+  color: #5eb8f0;
+}
+
 /* hero section */
 .hero {
   padding-top: 177px;
@@ -276,6 +280,10 @@ address {
   height: 1px;
   background: #c5c1fe;
 } */
+
+address {
+  margin-bottom: 0;
+}
 
 .hero__title {
   margin-bottom: 21px;
@@ -826,11 +834,6 @@ form p {
   padding-bottom: 62px;
 }
 
-/* .footer-address {
-  padding-right: 112px;
-  border-right: 1px solid rgba(180, 180, 180, 0.35);
-} */
-
 .address-div {
   display: flex;
   gap: 12px;
@@ -926,4 +929,82 @@ form p {
 .section-7-blog {
   padding-top: 50px;
   padding-bottom: 116px;
+}
+/* section reviews */
+.reviews {
+  padding-top: 61px;
+  background-color: #dfeefc;
+}
+
+.reviews-image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.reviews-block {
+  padding: 41px 164px;
+  position: absolute;
+  bottom: 0;
+  width: 663px;
+  height: 167px;
+  border-radius: 50px 50px 0px 0px;
+  background: linear-gradient(
+    258deg,
+    rgba(223, 238, 252, 0.9) 11.01%,
+    rgba(167, 210, 251, 0.95) 92.77%
+  );
+  box-shadow: 0px 5px 8px 2px rgba(18, 17, 17, 0.13);
+}
+
+.reviews-block h3 {
+  margin-bottom: 15px;
+color: #302D2D;
+
+text-align: center;
+font-size: 32.089px;
+font-weight: 700;
+}
+
+/* .reviews-404 {
+  position: relative;
+} */
+
+.reviews-404-2 {
+  position: absolute;
+  left: 39.5%;
+  bottom: 38%;
+  width: 232px;
+  height: 175px;
+  background: var(
+    --gradient-1,
+    linear-gradient(258deg, #dfeefc 11.01%, rgba(167, 210, 251, 0.92) 92.77%)
+  );
+
+  padding: 21px 31px;
+  color: #FFF;
+
+font-size: 95px;
+font-weight: 700;
+}
+
+.reviews-link {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.reviews-link span {
+  color: #302D2D;
+
+font-size: 24px;
+font-weight: 400;
+}
+
+.reviews-link a {
+   color: #302D2D;
+
+font-size: 24px;
+font-weight: 400;
+text-decoration-line: underline;
 }
