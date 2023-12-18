@@ -826,6 +826,30 @@ form p {
   padding-bottom: 62px;
 }
 
+.address-div {
+  display: flex;
+  gap: 12px;
+}
+
+.address-link {
+  color: #FFF;
+font-size: 14px;
+font-weight: 400;
+}
+
+.address-div {
+  margin-bottom: 24px;
+}
+
+.address-div:last-child {
+  margin-bottom: 0;
+}
+
+.footer .header__social {
+margin-top: 74px;
+margin-left: 0;
+}
+
 .footer-line {
   border-bottom: 1px solid rgba(180, 180, 180, 0.35);
 }
@@ -871,3 +895,4 @@ form p {
   font-size: 16px;
   font-weight: 300;
 }
+
