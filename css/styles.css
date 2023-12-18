@@ -448,8 +448,8 @@ address {
   /* padding-top: 22px; */
   margin-bottom: 7px;
 
-font-size: 18px;
-font-weight: 700;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .section-5-list-backround p {
@@ -704,10 +704,10 @@ margin-right: auto;
 } */
 
 .carusel-wapper2 {
-display: flex;
-align-items: center;
-justify-content: center;
-gap: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 42px;
 }
 
 .section-8-svg {
@@ -826,15 +826,20 @@ form p {
   padding-bottom: 62px;
 }
 
+/* .footer-address {
+  padding-right: 112px;
+  border-right: 1px solid rgba(180, 180, 180, 0.35);
+} */
+
 .address-div {
   display: flex;
   gap: 12px;
 }
 
 .address-link {
-  color: #FFF;
-font-size: 14px;
-font-weight: 400;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .address-div {
@@ -846,8 +851,8 @@ font-weight: 400;
 }
 
 .footer .header__social {
-margin-top: 74px;
-margin-left: 0;
+  margin-top: 74px;
+  margin-left: 0;
 }
 
 .footer-line {
@@ -896,3 +901,29 @@ margin-left: 0;
   font-weight: 300;
 }
 
+/* Страница блог */
+
+.breadcrumb {
+  padding-top: 24px;
+  padding-bottom: 28px;
+
+  background-color: #dfeefc;
+}
+
+.breadcrumb__wapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+.breadcrumb-link {
+  color: #302d2d;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.section-7-blog {
+  padding-top: 50px;
+  padding-bottom: 116px;
+}
