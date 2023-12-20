@@ -1101,7 +1101,7 @@ form p {
 .form2-input {
   display: block;
   max-width: 488px;
-height: 62px;
+  height: 62px;
   margin-bottom: 22px;
   padding: 20px 23px;
 }
@@ -1121,8 +1121,8 @@ height: 62px;
   display: block;
   padding: 16px 54px;
   border-radius: 26px;
-background: #F86D6D;
-margin-bottom: 92px;
+  background: #f86d6d;
+  margin-bottom: 92px;
 }
 
 .center {
@@ -1136,16 +1136,16 @@ margin-bottom: 92px;
 
 .comment p {
   max-width: 358px;
-  color: #302D2D;
+  color: #302d2d;
 
-font-size: 32px;
-font-weight: 400;
+  font-size: 32px;
+  font-weight: 400;
 }
 
 /* service-4 */
 .service-5 {
-padding-top: 62px;
-padding-bottom: 62px;
+  padding-top: 62px;
+  padding-bottom: 62px;
 }
 
 .service-5-center {
@@ -1161,44 +1161,44 @@ padding-bottom: 62px;
   margin-bottom: 10px;
   color: #000;
 
-font-size: 18px;
-font-weight: 400;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .service-5-right time {
   /* margin-bottom: 12px; */
-  color: #A0A0A0;
-font-size: 14px;
-font-weight: 300;
+  color: #a0a0a0;
+  font-size: 14px;
+  font-weight: 300;
 }
 
 .service-5-right p {
   margin-top: 12px;
   margin-bottom: 10px;
-color: #000;
-font-size: 16px;
-font-weight: 300;
+  color: #000;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 .service-5-right span {
-  color: #F86D6D;
-font-size: 16px;
-font-weight: 400;
-text-decoration-line: underline;
+  color: #f86d6d;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration-line: underline;
 }
 
 /* contact */
 .breadcrumb3 {
-padding-top: 67px;
-padding-bottom: 67px;
+  padding-top: 67px;
+  padding-bottom: 67px;
 }
 
 .breadcrumb3-title {
   margin-bottom: 48px;
   text-align: center;
-  color: #302D2D;
-font-size: 52px;
-font-weight: 400;
+  color: #302d2d;
+  font-size: 52px;
+  font-weight: 400;
 }
 
 .breaadcrumb-list {
@@ -1210,17 +1210,17 @@ font-weight: 400;
 .breaadcrumb-list li {
   width: 284px;
   height: 288px;
-text-align: center;
-padding-top: 60px;
+  text-align: center;
+  padding-top: 60px;
   /* padding: 60px 48px; */
   /* padding-top: 60px;
   padding-bottom: 60px; */
-  background-color: #29A9F9;
+  background-color: #29a9f9;
   border-radius: 5px;
 }
 
 .breaadcrumb-list li:hover {
-background: #328DC6;
+  background: #328dc6;
 }
 
 .breaadcrumb-list li svg {
@@ -1228,18 +1228,18 @@ background: #328DC6;
 }
 
 .breaadcrumb-list li h3 {
-  color: #FFF;
+  color: #fff;
 
-font-size: 19px;
-font-weight: 700;
+  font-size: 19px;
+  font-weight: 700;
   margin-bottom: 6px;
 }
 
 .breaadcrumb-list li a {
-  color: #FFF;
+  color: #fff;
 
-font-size: 18px;
-font-weight: 400;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .breaadcrumb-social {
@@ -1258,9 +1258,9 @@ font-weight: 400;
   text-align: center;
   margin-top: 60px;
   margin-bottom: 54px;
-  color: #302D2D;
-font-size: 42px;
-font-weight: 400;
+  color: #302d2d;
+  font-size: 42px;
+  font-weight: 400;
 }
 
 .form3-textarea {
@@ -1281,5 +1281,87 @@ font-weight: 400;
   width: 100%;
 
   border-radius: 26px;
-background: #F86D6D;
+  background: #f86d6d;
+}
+
+/* section spesialist */
+
+.specialist {
+  padding-top: 71px;
+  padding-bottom: 71px;
+}
+
+.specialist-wapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 65px;
+}
+
+.specialist-image {
+  max-width: 432px;
+}
+
+.specialist-title {
+  margin-bottom: 32px;
+  color: #302d2d;
+  font-size: 52px;
+  font-weight: 400;
+}
+
+.specialist-title2 {
+  margin-bottom: 16px;
+  color: #56565e;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.77; /* 39.644px */
+}
+
+.specialist-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  color: #56565e;
+
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.77;
+ list-style: inside;
+}
+
+.spesialist-title3 {
+  margin-top: 32px;
+  margin-bottom: 18px;
+  color: #56565E;
+
+font-size: 19px;
+font-weight: 700;
+line-height: 1.77; /* 34.238px */
+}
+
+.spesialist-item {
+  color: #56565E;
+
+font-size: 19px;
+font-weight: 400;
+line-height: 1.77; /* 34.238px */
+list-style: inside;
+}
+
+.specialist-title3 {
+  color: #56565E;
+
+font-size: 19px;
+font-weight: 700;
+line-height: 1.77; /* 34.238px */
+}
+
+.spesialist-text2 {
+  margin-top: 18px;
+color: #56565E;
+
+font-size: 19px;
+font-weight: 400;
+line-height: 1.77; /* 34.238px */
 }
