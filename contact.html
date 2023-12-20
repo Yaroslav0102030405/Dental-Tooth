@@ -22,8 +22,8 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-<body>
-     <header class="header">
+  <body>
+    <header class="header">
       <div class="backround">
         <div class="container">
           <div class="header__top">
@@ -90,15 +90,73 @@
       </div>
     </header>
     <main>
-        <section class="breadcrumb">
-            <div class="container">
-                <div class="breadcrumb__wapper">
-                <svg width="25"  height="25"><use href="./image/sprite.svg#icon-home"></use></svg>
-                <a class="breadcrumb-link" href="/">Главная / Контакты</a>
-                </div>
-            </div>
-        </section>
-          <section class="section-9">
+      <section class="breadcrumb">
+        <div class="container">
+          <div class="breadcrumb__wapper">
+            <svg width="25" height="25">
+              <use href="./image/sprite.svg#icon-home"></use>
+            </svg>
+            <a class="breadcrumb-link" href="/">Главная / Контакты</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="breadcrumb3">
+        <div class="container">
+          <h2 class="breadcrumb3-title">Контакты</h2>
+          <ul class="breaadcrumb-list">
+            <li>
+              <svg width="45" height="45">
+                <use href="./image/sprite.svg#icon-location"></use>
+              </svg>
+              <h3>Наш офис</h3>
+              <a href="https://maps.app.goo.gl/SvD66bGZupn16T4t5"
+                >вул. Січових Стрільців 54</a
+              >
+            </li>
+            <li>
+              <svg width="45" height="45">
+                <use href="./image/sprite.svg#icon-phone"></use>
+              </svg>
+              <h3>Наш телефон</h3>
+              <a href="tel:+77776544454">+7 (777) 654 44 54</a>
+            </li>
+            <li>
+              <svg width="45" height="45">
+                <use href="./image/sprite.svg#icon-envelope-unfill-1"></use>
+              </svg>
+              <h3>Наш email</h3>
+              <a href="mailto:info@dentaltooth.kz">info@dentaltooth.kz</a>
+            </li>
+            <li>
+              <svg width="45" height="45">
+                <use href="./image/sprite.svg#icon-molekula-1"></use>
+              </svg>
+              <h3>Мы в социальных сетях</h3>
+              <diV class="breaadcrumb-social"> <svg width="22" height="22">
+                    <use href="./image/sprite.svg#icon-twitter"></use>
+                  </svg>
+                <svg width="22" height="22">
+                    <use href="./image/sprite.svg#icon-instagram"></use>
+                  </svg>
+                 <svg width="22" height="22">
+                    <use href="./image/sprite.svg#icon-vk"></use>
+                  </svg>
+                </diV>
+            </li>
+          </ul>
+
+          <h3 class="form3-title">Связаться с нами</h3>
+          <form class="form3">
+            <input class="input3" type="name" required placeholder="Ваше имя">
+            <input class="input3" type="email" required placeholder="Ваш телефон">
+            <textarea class="form3-textarea" name="text"  placeholder="Комментарий"></textarea>
+            <button class="form3-button" type="submit">Отправить</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="section-9">
         <div class="container">
           <div class="section-9-wapper">
             <form class="form">
@@ -118,7 +176,7 @@
         </div>
       </section>
     </main>
-     <footer class="footer footer-line">
+    <footer class="footer footer-line">
       <div class="container">
         <div class="footer-top">
           <div class="footer-address">
@@ -215,7 +273,5 @@
     <footer class="footer-botton">
       <p>2022 &copy; Dental Tooth Все права защищены</p>
     </footer>
-
-    
-</body>
+  </body>
 </html>
