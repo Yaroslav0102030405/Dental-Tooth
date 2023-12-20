@@ -1292,6 +1292,7 @@ form p {
 }
 
 .specialist-wapper {
+  padding-bottom: 71px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1327,41 +1328,61 @@ form p {
   font-size: 17px;
   font-weight: 400;
   line-height: 1.77;
- list-style: inside;
+  list-style: inside;
 }
 
 .spesialist-title3 {
   margin-top: 32px;
   margin-bottom: 18px;
-  color: #56565E;
+  color: #56565e;
 
-font-size: 19px;
-font-weight: 700;
-line-height: 1.77; /* 34.238px */
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.77; /* 34.238px */
 }
 
 .spesialist-item {
-  color: #56565E;
+  color: #56565e;
 
-font-size: 19px;
-font-weight: 400;
-line-height: 1.77; /* 34.238px */
-list-style: inside;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.77; /* 34.238px */
+  list-style: inside;
 }
 
 .specialist-title3 {
-  color: #56565E;
+  color: #56565e;
 
-font-size: 19px;
-font-weight: 700;
-line-height: 1.77; /* 34.238px */
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.77; /* 34.238px */
 }
 
 .spesialist-text2 {
   margin-top: 18px;
-color: #56565E;
+  color: #56565e;
 
-font-size: 19px;
-font-weight: 400;
-line-height: 1.77; /* 34.238px */
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.77; /* 34.238px */
+}
+
+.spesialist-list {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 21px;
+  border-radius: 5px;
+}
+
+.spesialist-list li {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  width: 385px;
+  height: 288px;
+  background: #29a9f9;
+}
+
+.specialist-list h3 {
+  margin-top: 22px;
 }
