@@ -959,11 +959,11 @@ form p {
 
 .reviews-block h3 {
   margin-bottom: 15px;
-color: #302D2D;
+  color: #302d2d;
 
-text-align: center;
-font-size: 32.089px;
-font-weight: 700;
+  text-align: center;
+  font-size: 32.089px;
+  font-weight: 700;
 }
 
 /* .reviews-404 {
@@ -982,10 +982,10 @@ font-weight: 700;
   );
 
   padding: 21px 31px;
-  color: #FFF;
+  color: #fff;
 
-font-size: 95px;
-font-weight: 700;
+  font-size: 95px;
+  font-weight: 700;
 }
 
 .reviews-link {
@@ -995,16 +995,59 @@ font-weight: 700;
 }
 
 .reviews-link span {
-  color: #302D2D;
+  color: #302d2d;
 
-font-size: 24px;
-font-weight: 400;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 .reviews-link a {
-   color: #302D2D;
+  color: #302d2d;
 
-font-size: 24px;
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration-line: underline;
+}
+
+/* service */
+.service-3 {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.service-image {
+  margin-bottom: 35px;
+}
+
+.service-time {
+  margin-right: 27px;
+  color: #a9a9a9;
+
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.service-span {
+  color: #a9a9a9;
+
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.service-title {
+  margin-top: 24px;
+  width: 645px;
+  margin-bottom: 35px;
+  color: #302D2D;
+
+font-size: 52px;
 font-weight: 400;
-text-decoration-line: underline;
+}
+
+.service-text1 {
+  max-width: 1200px;
+  color: #535050;
+font-size: 18px;
+font-weight: 400;
+line-height: 1.77;
 }
