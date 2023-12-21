@@ -1,0 +1,64 @@
+/* section-6 */
+
+.price {
+  padding-top: 75px;
+  padding-bottom: 103px;
+  background-color: #dfeefc;
+  background-image: url(../image/Group\ 178.jpg);
+  background-repeat: no-repeat;
+}
+
+.wapper {
+  display: flex;
+}
+
+.price__left {
+  padding: 55px 61px;
+  width: 712px;
+  height: 707px;
+  background-color: #5eb8f0;
+  border-radius: 20px;
+}
+
+.price__left-title {
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 47px;
+  font-weight: 400;
+}
+
+.price__left-text {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 72px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.price__left-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 28px; */
+  margin-bottom: 28px;
+
+  border-bottom: 1px dashed #fff;
+  padding-bottom: 15px;
+}
+
+.price__left-item:last-child {
+  margin-bottom: 0;
+}
+
+.span1 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.span2 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
