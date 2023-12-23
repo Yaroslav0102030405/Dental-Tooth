@@ -1,0 +1,25 @@
+/* Страница блог */
+.breadcrumb {
+  padding-top: 24px;
+  padding-bottom: 28px;
+
+  background-color: #dfeefc;
+}
+
+.breadcrumb__wapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+.breadcrumb-link {
+  color: #302d2d;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.section-7-blog {
+  padding-top: 50px;
+  padding-bottom: 116px;
+}

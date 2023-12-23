@@ -44,22 +44,19 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-}
-/* @media screen and (min-width: 360px) {
-  .container {
+
+  @media screen and (min-width: 360px) {
     width: 360px;
   }
-}
-@media screen and (min-width: 768px) {
-  .container {
+
+  @media screen and (min-width: 768px) {
     width: 768px;
   }
-}
-@media screen and (min-width: 1600px) {
-  .container {
-    width: 1600px;
+
+  @media screen and (min-width: 1240px) {
+    width: 1240px;
   }
-} */
+}
 
 /* Личный нормализатор -------------- */
 h1,
