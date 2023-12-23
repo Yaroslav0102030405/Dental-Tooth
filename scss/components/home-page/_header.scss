@@ -15,6 +15,10 @@
   display: flex;
   align-items: center;
   gap: 14px;
+
+  @media screen and (max-width: 768px) {
+    gap: 7px;
+  }
 }
 
 .address__left a {
@@ -22,11 +26,19 @@
   font-size: 16px;
   padding-top: 17px;
   padding-bottom: 17px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 9px;
+  }
 }
 
 .address__right {
   display: flex;
   align-items: center;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 }
 
 .address__right a {
@@ -72,6 +84,13 @@
   align-items: center;
   justify-content: space-between;
   background-color: var(--white);
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
 }
 
 .btn {
@@ -84,11 +103,20 @@
 
   font-size: 14px;
   font-weight: 400;
+
+  @media screen and (max-width: 768px) {
+    padding: 8px 15px;
+    font-size: 8px;
+  }
 }
 
 .header-menu {
   display: flex;
   gap: 39px;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 }
 
 .header-menu li a {
@@ -109,4 +137,25 @@
 
 .header-menu li a.current {
   color: #5eb8f0;
+}
+
+.header-burger {
+  display: none;
+
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
+}
+
+.address__left svg {
+  @media screen and (max-width: 768px) {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+.header__botton a img {
+   @media screen and (max-width: 768px) {
+    width: 60%;
+  }
 }

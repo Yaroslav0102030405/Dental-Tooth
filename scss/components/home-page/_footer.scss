@@ -5,8 +5,9 @@
   padding-bottom: 62px;
 
   @media screen and (max-width: 768px) {
-    margin-top: 61px;
     text-align: center;
+    padding-top: 41px;
+    padding-bottom: 34px;
   }
 }
 
@@ -15,7 +16,7 @@
   gap: 12px;
 
   @media screen and (max-width: 768px) {
- justify-content: center;
+    justify-content: center;
   }
 }
 
@@ -90,6 +91,11 @@
   padding-top: 47px;
   padding-bottom: 37px;
   background: #10406f;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 27px;
+    padding-bottom: 29px;
+  }
 }
 
 .footer-botton p {
@@ -112,9 +118,8 @@
 }
 
 .footer-services {
-   @media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     flex-direction: column;
     justify-content: center;
   }
 }
-
