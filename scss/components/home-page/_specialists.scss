@@ -1,6 +1,11 @@
 .specialists {
   padding-top: 91px;
   padding-bottom: 119px;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 46px;
+    padding-bottom: 30px;
+  }
 }
 
 .specialists__list {
@@ -8,6 +13,12 @@
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 20px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
 }
 
 .specialists__list-backround {
@@ -40,17 +51,26 @@
   text-align: center;
   font-size: 52px;
   font-weight: 400;
+
+  @media screen and (max-width: 768px) {
+    font-size: 30px;
+  }
 }
 
 .specialists__text {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 45px;
-  width: 474px;
+  max-width: 474px;
   color: #302d2d;
 
   text-align: center;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.75; /* 25.632px */
+
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
 }

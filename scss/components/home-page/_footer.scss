@@ -3,6 +3,11 @@
   background: #10406f;
   padding-top: 68px;
   padding-bottom: 62px;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 41px;
+  padding-bottom: 34px;
+  }
 }
 
 .address-div {

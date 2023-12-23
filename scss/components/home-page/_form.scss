@@ -7,6 +7,11 @@
     #dfeefc 11.01%,
     rgba(167, 210, 251, 0.92) 92.77%
   );
+
+  @media screen and (max-width: 768px) {
+    padding-top: 46px;
+    padding-bottom: 70px;
+  }
 }
 
 .form {
@@ -20,15 +25,27 @@
   border-radius: 20px;
   background: #fff;
   box-shadow: 0px 0px 8px 2px rgba(108, 108, 108, 0.25);
+
+  @media screen and (max-width: 768px) {
+    margin-right: 0;
+    padding: 42px 35px;
+    height: auto;
+  }
 }
 
 form h2 {
+  text-align: center;
   margin-bottom: 29px;
   color: #302d2d;
 
   text-align: center;
   font-size: 32px;
   font-weight: 400;
+
+  @media screen and (max-width: 768px) {
+    font-size: 23px;
+    margin-bottom: 21px;
+  }
 }
 
 input {
@@ -37,8 +54,11 @@ input {
   padding: 19px 22px;
   border-radius: 10px;
   border: 1px solid #e4e4e4;
-
   background: #fff;
+
+  @media screen and (max-width: 768px) {
+    color: #b9b9b9;
+  }
 }
 
 form button {
@@ -52,10 +72,16 @@ form button {
   text-align: center;
   font-size: 17px;
   font-weight: 400;
+
+  @media screen and (max-width: 768px) {
+    font-size: 10px;
+    margin-bottom: 14px;
+  }
 }
 
 form p {
-  margin: 0 auto;
+  text-align: center;
+  // margin: 0 auto;
   /* margin-bottom: 0; */
   max-width: 280px;
   /* height: 47px; */
@@ -64,6 +90,10 @@ form p {
   /* text-align: center; */
   font-size: 14px;
   font-weight: 400;
+
+  @media screen and (max-width: 768px) {
+    font-size: 12px;
+  }
 }
 
 .entry-form-wapper {
@@ -71,4 +101,10 @@ form p {
   align-items: center;
   justify-content: flex-end;
   flex-wrap: wrap;
+}
+
+.section-9-image {
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 }

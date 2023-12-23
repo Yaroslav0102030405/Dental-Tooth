@@ -32,7 +32,7 @@ address {
 .hero__title {
   margin-bottom: 21px;
   color: var(--white);
-  width: 485px;
+  max-width: 485px;
 
   font-size: 62px;
   font-weight: 700;
@@ -41,7 +41,7 @@ address {
 
 .hero__text {
   margin-bottom: 26px;
-  width: 460px;
+  max-width: 460px;
   font-size: 18px;
 }
 
