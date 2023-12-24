@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header class="header">
+      <header class="header">
       <div class="backround">
         <div class="container">
           <div class="header__top">
@@ -64,26 +64,28 @@
                 </li>
               </ul>
             </address>
-            <svg class="header-burger" width="25" height="25">
-                    <use href="./image/sprite.svg#icon-hamburger-1-1"></use>
-                  </svg>
           </div>
         </div>
       </div>
+      <!-- </div> -->
+
       <div class="container">
         <div class="header__botton">
           <a href="/"><img src="./image/logo.png" alt="" /></a>
           <nav>
+            <!-- <div class="nav"> -->
             <ul class="header-menu">
               <li><a class="current" href="/">Главная</a></li>
-              <li><a href="./services.html">Услуги</a></li>
+              <li><a  href="./services.html">Услуги</a></li>
               <li><a href="./specialists.html">Наши специалисты</a></li>
               <li><a href="./reviews.html">Отзывы</a></li>
               <li><a href="./blog.html">Блог</a></li>
               <li><a href="./contact.html">Контакты</a></li>
             </ul>
           </nav>
-          <button class="btn" type="button">Получить консультацию</button>
+
+          <button class="btn modal-btn-open" type="button">Получить консультацию</button>
+          <!-- </div> -->
         </div>
       </div>
     </header>
@@ -604,10 +606,30 @@
       <p>2022 &copy; Dental Tooth Все права защищены</p>
     </footer>
 
+    <div class="backdrop is-hidden">
+      <div class="modal">
+        <button class="modal-button modal-btn-close" type="button">
+        <svg width="19" height="19"><use href="./image/sprite.svg#icon-close-1"></use></svg>
+        </button>
+          <form class="form-modal">
+              <h2>Получить консультацию</h2>
+              <input type="name" placeholder="Ваше имя" required />
+              <input type="phone" placeholder="Ваш телефон" required />
+              <button type="submit">Отправить</button>
+              <p>
+                Нажимая кнопку, я даю свое согласие на обработку моих
+                персональных данных
+              </p>
+            </form>
+      </div>
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+
+    <script src="./js/modal.js" type="module"></script>
   </body>
 </html>
