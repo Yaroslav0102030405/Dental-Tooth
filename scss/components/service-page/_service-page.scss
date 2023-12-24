@@ -2,11 +2,20 @@
 .service-3 {
   padding-top: 64px;
   padding-bottom: 64px;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 34px;
+  padding-bottom: 34px;
+  }
 }
 
 .service-image {
   margin-bottom: 35px;
   border-radius: 15px;
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 20px;
+  }
 }
 
 .service-time {
@@ -33,6 +42,12 @@
 
   font-size: 52px;
   font-weight: 400;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 17px;
+    margin-bottom: 20px;
+    font-size: 32px;
+  }
 }
 
 .service-text1 {
@@ -78,6 +93,10 @@
 
 .form2 {
   padding-top: 75px;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 20px;
+  }
 }
 
 .form2-title {
@@ -85,6 +104,11 @@
   color: #302d2d;
   font-size: 42px;
   font-weight: 400;
+
+  @media screen and (max-width: 768px) {
+    text-align: center;
+    font-size: 24px;
+  }
 }
 
 .form2-input {
@@ -93,6 +117,13 @@
   height: 62px;
   margin-bottom: 22px;
   padding: 20px 23px;
+
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      height: auto;
+      margin-bottom: 14px;
+    padding: 14px;
+  }
 }
 
 .form2-textarea {
@@ -104,6 +135,13 @@
   border-radius: 10px;
   border: 1px solid #e4e4e4;
   background: #fff;
+
+  @media screen and (max-width: 768px) {
+      width: 100%;
+      height: auto;
+      margin-bottom: 14px;
+    padding: 14px;
+  }
 }
 
 .form2-button {
@@ -112,11 +150,22 @@
   border-radius: 26px;
   background: #f86d6d;
   margin-bottom: 92px;
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    font-size: 10px;
+  }
 }
 
 .center {
   display: flex;
   align-items: center;
+
+   @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 }
 
 .comment {
@@ -129,17 +178,32 @@
 
   font-size: 32px;
   font-weight: 400;
+
+    @media screen and (max-width: 768px) {
+      width: 240px;
+      text-align: center;
+    font-size: 16px;
+  }
 }
 
 /* service-4 */
 .service-5 {
   padding-top: 62px;
   padding-bottom: 62px;
+
+   @media screen and (max-width: 768px) {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 }
 
 .service-5-center {
   display: flex;
   gap: 27px;
+
+  @media screen and (max-width: 768px) {
+    align-items: center;
+  }
 }
 
 .service-5-left img {
@@ -152,6 +216,10 @@
 
   font-size: 18px;
   font-weight: 400;
+
+  @media screen and (max-width: 768px) {
+    font-size: 11px;
+  }
 }
 
 .service-5-right time {
@@ -159,6 +227,10 @@
   color: #a0a0a0;
   font-size: 14px;
   font-weight: 300;
+
+   @media screen and (max-width: 768px) {
+    font-size: 9px;
+  }
 }
 
 .service-5-right p {
@@ -167,6 +239,12 @@
   color: #000;
   font-size: 16px;
   font-weight: 300;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-size: 6px;
+  }
 }
 
 .service-5-right span {
@@ -174,4 +252,8 @@
   font-size: 16px;
   font-weight: 400;
   text-decoration-line: underline;
+
+  @media screen and (max-width: 768px) {
+    font-size: 9px;
+  }
 }

@@ -13,10 +13,21 @@
   gap: 14px;
 }
 
+.breadcrumb__wapper svg {
+  @media screen and (max-width: 768px) {
+    width: 16px;
+    height: 16px;
+  }
+}
+
 .breadcrumb-link {
   color: #302d2d;
   font-size: 18px;
   font-weight: 400;
+
+  @media screen and (max-width: 768px) {
+    font-size: 9px;
+  }
 }
 
 .section-7-blog {
