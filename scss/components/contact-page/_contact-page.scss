@@ -37,11 +37,21 @@
   height: 288px;
   text-align: center;
   padding-top: 60px;
-  /* padding: 60px 48px; */
-  /* padding-top: 60px;
-  padding-bottom: 60px; */
   background-color: #29a9f9;
   border-radius: 5px;
+
+  @media screen and (max-width: 768px) {
+    padding: 31px 19px;
+    width: 147px;
+  height: 149px;
+  }
+}
+
+.breaadcrumb-list svg {
+  @media screen and (max-width: 768px) {
+    width: 23px;
+  height: 23px;
+  }
 }
 
 .breaadcrumb-list li:hover {
@@ -50,6 +60,10 @@
 
 .breaadcrumb-list li svg {
   margin-bottom: 22px;
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 11px;
+  }
 }
 
 .breaadcrumb-list li h3 {
@@ -58,6 +72,10 @@
   font-size: 19px;
   font-weight: 700;
   margin-bottom: 6px;
+
+   @media screen and (max-width: 768px) {
+    font-size: 12px;
+  }
 }
 
 .breaadcrumb-list li a {
@@ -65,6 +83,10 @@
 
   font-size: 18px;
   font-weight: 400;
+
+   @media screen and (max-width: 768px) {
+    font-size: 9px;
+  }
 }
 
 .breaadcrumb-social {
@@ -72,6 +94,19 @@
   justify-content: center;
   gap: 31px;
   margin-top: 22px;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 10px;
+   gap: 15px;
+  }
+}
+
+.breaadcrumb-social svg {
+   @media screen and (max-width: 768px) {
+     width: 11px;
+  height: 11px;
+  margin-bottom: 0;
+  }
 }
 
 .form3 {
