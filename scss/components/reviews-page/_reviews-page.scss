@@ -14,8 +14,8 @@
   padding: 41px 164px;
   position: absolute;
   bottom: 0;
-  width: 663px;
-  height: 167px;
+  max-width: 663px;
+  // height: 167px;
   border-radius: 50px 50px 0px 0px;
   background: linear-gradient(
     258deg,
@@ -23,6 +23,12 @@
     rgba(167, 210, 251, 0.95) 92.77%
   );
   box-shadow: 0px 5px 8px 2px rgba(18, 17, 17, 0.13);
+
+  @media screen and (max-width: 768px) {
+    padding: 21px 44px;
+    width: 100%;
+  height: auto;
+  }
 }
 
 .reviews2-block h3 {
@@ -32,6 +38,11 @@
   text-align: center;
   font-size: 32.089px;
   font-weight: 700;
+
+   @media screen and (max-width: 768px) {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
 }
 
 /* .reviews-404 {
@@ -46,14 +57,23 @@
   height: 175px;
   background: var(
     --gradient-1,
-    linear-gradient(258deg, #dfeefc 11.01%, rgba(167, 210, 251, 0.92) 92.77%)
-  );
+    linear-gradient(258deg, #dfeefc 11.01%, rgba(167, 210, 251, 0.92) 92.77%));
 
   padding: 21px 31px;
   color: #fff;
 
   font-size: 95px;
   font-weight: 700;
+
+  @media screen and (max-width: 768px) {
+    text-align: center;
+    padding: 19px;
+    left: 64px;
+    top: 143px;
+    font-size: 47px;
+    width: 146px;
+    height: 111px;
+  }
 }
 
 .reviews-link {
@@ -67,7 +87,12 @@
 
   font-size: 24px;
   font-weight: 400;
+
+   @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
 }
+
 
 .reviews-link a {
   color: #302d2d;
@@ -75,4 +100,8 @@
   font-size: 24px;
   font-weight: 400;
   text-decoration-line: underline;
+
+   @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
 }
