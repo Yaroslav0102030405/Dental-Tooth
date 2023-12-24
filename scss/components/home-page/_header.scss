@@ -94,7 +94,8 @@
 }
 
 .btn {
-  display: inline-flex;
+  display: block;
+  // display: inline-flex;
   padding: 17px 29px;
   border: none;
   background-color: #f86d6d;
@@ -108,6 +109,10 @@
     padding: 8px 15px;
     font-size: 8px;
   }
+}
+
+.btn:hover {
+  background-color: #5eb8f0;
 }
 
 .header-menu {
