@@ -38,4 +38,9 @@
 .section-7-blog {
   padding-top: 50px;
   padding-bottom: 116px;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 24px;
+    padding-bottom: 45px;
+  }
 }
