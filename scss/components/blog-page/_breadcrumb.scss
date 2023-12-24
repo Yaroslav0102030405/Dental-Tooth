@@ -4,6 +4,11 @@
   padding-bottom: 28px;
 
   background-color: #dfeefc;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
 }
 
 .breadcrumb__wapper {
