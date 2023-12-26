@@ -36,6 +36,7 @@
                 >Київ, вул. Січових Стрільців 54</a
               >
             </address>
+
             <address class="address__right">
               <svg width="16" height="16">
                 <use href="./image/sprite.svg#icon-phone"></use>
@@ -65,6 +66,24 @@
                 </li>
               </ul>
             </address>
+
+            <button data-menu-button
+              class="menu-button is-open"
+              type="button"
+              data-menu-button
+              aria-expanded="false"
+              aria-controls="menu-container"
+              aria-label="Переключатель мобильного меню"
+            >
+              <svg class="icon-cross" width="25" height="25">
+                <use href="./image/sprite.svg#icon-hamburger-1-1"></use>
+              </svg>
+              <svg class="icon-menu" width="15" height="15">
+                <use href="./image/sprite.svg#icon-close-2"></use>
+              </svg>
+            </button>
+
+            <!-- бургер меню -->
           </div>
         </div>
       </div>
@@ -72,20 +91,29 @@
 
       <div class="container">
         <div class="header__botton">
-          <a href="/"><img src="./image/logo.png" alt="" /></a>
-          <nav>
-            <!-- <div class="nav"> -->
-            <ul class="header-menu">
-              <li><a href="/">Главная</a></li>
-              <li><a href="./services.html">Услуги</a></li>
-              <li><a href="./specialists.html">Наши специалисты</a></li>
-              <li><a class="current" href="./reviews.html">Отзывы</a></li>
-              <li><a href="./blog.html">Блог</a></li>
-              <li><a href="./contact.html">Контакты</a></li>
-            </ul>
-          </nav>
+                    <!-- <div class="mobile-wrap"> -->
 
-          <button class="btn" type="button">Получить консультацию</button>
+          <a href="/"><img src="./image/logo.png" alt="" /></a>
+
+          <nav>
+            <div class="menu-container" id="menu-container" data-menu>
+              <div class="menu-content">
+                <ul class="header-menu">
+                  <li><a class="current" href="/">Главная</a></li>
+                  <li><a href="./services.html">Услуги</a></li>
+                  <li><a href="./specialists.html">Наши специалисты</a></li>
+                  <li><a href="./reviews.html">Отзывы</a></li>
+                  <li><a href="./blog.html">Блог</a></li>
+                  <li><a href="./contact.html">Контакты</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- </div> -->
+
+          <button class="btn modal-btn-open" type="button" data-open-modal>
+            Получить консультацию
+          </button>
           <!-- </div> -->
         </div>
       </div>
