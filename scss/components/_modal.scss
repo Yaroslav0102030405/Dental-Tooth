@@ -1,4 +1,6 @@
 .backdrop {
+ padding-left: 20px;
+ padding-right: 20px;
   position: fixed;
   top: 0;
   left: 0;
@@ -70,6 +72,11 @@ form-modal h2 {
 
 .modal svg {
   margin-bottom: 28px;
+  fill: #f0dfdf;
+}
+
+.modal svg:hover {
+  fill: #5EB8F0;
 }
 
 
