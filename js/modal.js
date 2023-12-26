@@ -71,3 +71,8 @@ const toggleModal = () => {
 
 modalBtnOpen.addEventListener('click', toggleModal);
 modalBtnClose.addEventListener('click', toggleModal);
+
+// function toggleModal() {
+//   document.body.classList.toggle('modal-open');
+//   modal.classList.toggle('is-hidden');
+// }

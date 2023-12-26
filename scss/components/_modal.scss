@@ -132,24 +132,49 @@ form-modal h2 {
 }
 
 .menu-container {
-  text-align: center;
-  padding: 10px 20px;
-  display: none;
-  position: absolute;
+  // text-align: center;
+  // padding: 10px 20px;
+  // display: none;
+  // position: absolute;
+  // top: 0;
+  // left: 0;
+  // width: 100%;
+  // background: palegoldenrod;
+  // box-shadow: -2px 4px 4px 3px rgba(49, 46, 46, 0.09);
+
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background: palegoldenrod;
-  box-shadow: -2px 4px 4px 3px rgba(49, 46, 46, 0.09);
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  // z-index: 999;
+
+  transform: translateX(-100%);
+  transition: transform 500ms linear;
+  pointer-events: none;
+  // visibility: hidden;
+
 
   &.is-open {
-    display: block;
+    // display: block;
+    transform: translateX(0);
+    // visibility: visible;
+    pointer-events: initial;
   }
 }
 
-.menu-container.is-open {
-  display: block;
+.menu-content {
+  // display: none;
+  height: 100%;
+  background-color: #0E6EAA;
+  width: 80%;
+  padding: 20px;
 }
+
+// .menu-container.is-open {
+//   display: block;
+// }
 
 .icon-menu {
   position: relative;

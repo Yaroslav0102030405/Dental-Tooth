@@ -37,6 +37,12 @@
   align-items: center;
 
   @media screen and (max-width: 768px) {
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    // padding-top: 50px;
+    // display: none;
+    // display: block;
     display: none;
   }
 }
@@ -62,6 +68,10 @@
   display: flex;
   gap: 31px;
   margin-left: 55px;
+
+  // @media screen and (max-width: 768px) {
+  //   margin-left: 0;
+  // }
 }
 
 .header-social svg {
@@ -75,6 +85,10 @@
 
 .margin-right {
   margin-right: 40px;
+
+  // @media screen and (max-width: 768px) {
+  //   margin-right: 0;
+  // }
 }
 
 .header__botton {
@@ -120,7 +134,12 @@
   gap: 39px;
 
   @media screen and (max-width: 768px) {
-    display: none;
+    padding-top: 40px;
+    // display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
   }
 }
 
@@ -132,6 +151,10 @@
 
   font-size: 18px;
   font-weight: 400;
+
+  @media screen and (max-width: 768px) {
+    color: #fff;
+  }
 }
 
 .header-menu li a:hover {
