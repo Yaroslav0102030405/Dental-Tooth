@@ -1,19 +1,30 @@
 .backdrop {
- padding-left: 20px;
- padding-right: 20px;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+
   background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  overflow-y: scroll;
+  // opacity: 1;
 
   transition-property: opacity;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   // чтоб не прокручивалась модалька
-  overflow-y: scroll;
+  // overflow-y: scroll;
 }
+
+// .backdrop.is-hidden {
+//   opacity: 0;
+//   pointer-events: none;
+// }
+
+// .backdrop.is-hidden .modal {
+//   transform: translate(-50% -50%) scale(1.1);
+// }
 
 .modal {
   display: block;
@@ -27,6 +38,11 @@
   border-radius: 20px;
   background: #fff;
   box-shadow: 0px 0px 8px 2px rgba(108, 108, 108, 0.25);
+
+  transform: translate(-50% -50%) scale(1);
+  transition:
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   padding-top: 19px;
   padding-left: 28px;
@@ -46,9 +62,8 @@
   background-color: transparent;
 }
 
-
 .form-modal button {
-  // display: block;
+  display: block;
   width: 100%;
 }
 
@@ -58,7 +73,6 @@ form-modal h2 {
   font-size: 26px;
   font-weight: 400;
 }
-
 
 .form-modal p {
   display: block;
@@ -76,9 +90,8 @@ form-modal h2 {
 }
 
 .modal svg:hover {
-  fill: #5EB8F0;
+  fill: #5eb8f0;
 }
-
 
 .backdrop.is-hidden {
   opacity: 0;
@@ -90,3 +103,65 @@ form-modal h2 {
 // .backdrop.is-hidden .form {
 //   transform: translate(-50%, -50%) scale(0.9);
 // }
+.menu-button {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.menu-button .icon-cross {
+  display: none;
+}
+
+.menu-button.is-open .icon-cross {
+  display: block;
+}
+
+.menu-button.is-open .icon-menu {
+  display: none;
+}
+
+.header {
+  position: relative;
+}
+
+.menu-container {
+  text-align: center;
+  padding: 10px 20px;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: palegoldenrod;
+  box-shadow: -2px 4px 4px 3px rgba(49, 46, 46, 0.09);
+
+  &.is-open {
+    display: block;
+  }
+}
+
+.menu-container.is-open {
+  display: block;
+}
+
+.icon-menu {
+  position: relative;
+  fill: #fff;
+  z-index: 77;
+}
+
+.menu-container-title {
+  margin-bottom: 0;
+  padding-bottom: 15px;
+  color: #fff;
+
+  font-size: 22px;
+  font-weight: 400;
+}

@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-      <header class="header">
+    <header class="header">
       <div class="backround">
         <div class="container">
           <div class="header__top">
@@ -64,6 +64,27 @@
                 </li>
               </ul>
             </address>
+            <button
+              class="menu-button is-open"
+              type="button"
+              data-menu-button
+              aria-expanded="false"
+              aria-controls="menu-container"
+              aria-label="Переключатель мобильного меню"
+            >
+              <svg class="icon-cross" width="25" height="25">
+                <use href="./image/sprite.svg#icon-hamburger-1-1"></use>
+              </svg>
+              <svg class="icon-menu" width="15" height="15">
+                <use href="./image/sprite.svg#icon-close-2"></use>
+              </svg>
+            </button>
+
+            <div class="menu-container" id="menu-container" data-menu>
+              <div class="menu-container-line">
+                <h1 class="menu-container-title">Меню</h1>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -76,7 +97,7 @@
             <!-- <div class="nav"> -->
             <ul class="header-menu">
               <li><a class="current" href="/">Главная</a></li>
-              <li><a  href="./services.html">Услуги</a></li>
+              <li><a href="./services.html">Услуги</a></li>
               <li><a href="./specialists.html">Наши специалисты</a></li>
               <li><a href="./reviews.html">Отзывы</a></li>
               <li><a href="./blog.html">Блог</a></li>
@@ -84,7 +105,9 @@
             </ul>
           </nav>
 
-          <button class="btn modal-btn-open" type="button">Получить консультацию</button>
+          <button class="btn modal-btn-open" type="button" data-open-modal>
+            Получить консультацию
+          </button>
           <!-- </div> -->
         </div>
       </div>
@@ -99,7 +122,7 @@
             Талантливая команда стоматологов, признанных за высокое качество
             стоматологических процедур.
           </p>
-          <img class="hero-image" src="./image/hero-mob.png" alt="hero-mob">
+          <img class="hero-image" src="./image/hero-mob.png" alt="hero-mob" />
           <button class="hero__btn" type="button">Записаться на прием</button>
         </div>
       </section>
@@ -233,9 +256,7 @@
           <div class="wapper">
             <div class="price__left">
               <h3 class="price__left-title">Стоимость лечения от</h3>
-              <p class="price__left-text">
-                Доступные цены на каждую процедуру
-              </p>
+              <p class="price__left-text">Доступные цены на каждую процедуру</p>
               <ul>
                 <li class="price__left-item">
                   <span class="span1">Отбеливание зубов</span
@@ -609,18 +630,20 @@
     <div class="backdrop is-hidden">
       <div class="modal">
         <button class="modal-button modal-btn-close" type="button">
-        <svg width="19" height="19"><use href="./image/sprite.svg#icon-close-1"></use></svg>
+          <svg width="19" height="19">
+            <use href="./image/sprite.svg#icon-close-1"></use>
+          </svg>
         </button>
-          <form class="form-modal">
-              <h2>Получить консультацию</h2>
-              <input type="name" placeholder="Ваше имя" required />
-              <input type="phone" placeholder="Ваш телефон" required />
-              <button type="submit">Отправить</button>
-              <p>
-                Нажимая кнопку, я даю свое согласие на обработку моих
-                персональных данных
-              </p>
-            </form>
+        <form class="form-modal">
+          <h2>Получить консультацию</h2>
+          <input type="name" placeholder="Ваше имя" required />
+          <input type="phone" placeholder="Ваш телефон" required />
+          <button type="submit">Отправить</button>
+          <p>
+            Нажимая кнопку, я даю свое согласие на обработку моих персональных
+            данных
+          </p>
+        </form>
       </div>
     </div>
 
@@ -631,5 +654,6 @@
     ></script>
 
     <script src="./js/modal.js" type="module"></script>
+    <script src="./js/mobal-menu.js" type="module"></script>
   </body>
 </html>
