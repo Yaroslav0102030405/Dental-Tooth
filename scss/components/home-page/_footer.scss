@@ -1,6 +1,7 @@
 /* footer section */
 .footer {
   background: #10406f;
+      // background: linear-gradient(258deg, #dfeefc 11.01%, rgba(167, 210, 251, 0.92) 92.77%);
   padding-top: 68px;
   padding-bottom: 62px;
 
@@ -74,6 +75,7 @@
 
 .footer li {
   color: #e0e0e0;
+  // color: #d6dfed;
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 15px;
@@ -103,6 +105,7 @@
   margin-bottom: 0;
   text-align: center;
   color: #c3c3c3;
+  // color: #d6dfed;
   font-size: 16px;
   font-weight: 300;
 }
@@ -129,33 +132,47 @@
 // }
 
 
-.footer__backround {
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
+// .footer__backround {
+//   position: absolute;
+//   z-index: -1;
+//   top: 0;
+//   left: 0;
+//   bottom: 0;
+//   right: 0;
+// }
 
-.footer {
-   position: fixed;
-  left: 0;
-  bottom: 12px;
-  display: flex;
-  width: 100%;
-  height: 370px;
-}
+// html,
+// body {
+//   height: 100%;
+// }
 
-.footer__backround svg {
- position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transform: scaleY(3) scaleX(2.25);
-  transform-origin: bottom;
-  box-sizing: border-box;
-  display: block;
-  pointer-events: none;
-}
+// .footer__animate {
+// position: relative;
+// }
+
+// footer {
+//   position: relative;
+// }
+
+// .background {
+//    position: absolute;
+//   left: 0;
+//   // bottom: 12px;
+//   bottom: 0;
+//   display: flex;
+//   width: 100%;
+//   height: 370px;
+// }
+
+// footer .background svg {
+//  position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   transform: scaleY(3) scaleX(2.25);
+//   transform-origin: bottom;
+//   box-sizing: border-box;
+//   display: block;
+//   pointer-events: none;
+// }

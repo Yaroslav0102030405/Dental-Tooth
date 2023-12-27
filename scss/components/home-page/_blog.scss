@@ -30,6 +30,9 @@
 }
 
 .blog-list li {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
   padding: 15px 15px 37px;
   background-color: #f6f6f6;
   border-radius: 20px;
@@ -69,6 +72,7 @@
 }
 
 .blog-list a {
+  margin-top: auto;
   border-radius: 29.5px;
   background: #5eb8f0;
   padding: 15px 111px;
