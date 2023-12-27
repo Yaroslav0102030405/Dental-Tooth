@@ -123,3 +123,39 @@
     justify-content: center;
   }
 }
+
+// footer {
+//   position: relative;
+// }
+
+
+.footer__backround {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.footer {
+   position: fixed;
+  left: 0;
+  bottom: 12px;
+  display: flex;
+  width: 100%;
+  height: 370px;
+}
+
+.footer__backround svg {
+ position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scaleY(3) scaleX(2.25);
+  transform-origin: bottom;
+  box-sizing: border-box;
+  display: block;
+  pointer-events: none;
+}
