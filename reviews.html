@@ -99,12 +99,12 @@
             <div class="menu-container" id="menu-container" data-menu>
               <div class="menu-content">
                 <ul class="header-menu">
-                  <li><a  href="./index.html">Главная</a></li>
-                  <li><a href="./services.html">Услуги</a></li>
-                  <li><a href="./specialists.html">Наши специалисты</a></li>
-                  <li><a class="current" href="./reviews.html">Отзывы</a></li>
+                  <li><a href="./index.html">Головна</a></li>
+                  <li><a href="./services.html">Послуги</a></li>
+                  <li><a href="./specialists.html">Наші спеціалісти</a></li>
+                  <li><a class="current" href="./reviews.html">Відгуки</a></li>
                   <li><a href="./blog.html">Блог</a></li>
-                  <li><a href="./contact.html">Контакты</a></li>
+                  <li><a href="./contact.html">Контакти</a></li>
                 </ul>
               </div>
             </div>
@@ -112,7 +112,7 @@
           <!-- </div> -->
 
           <button class="btn modal-btn-open" type="button" data-open-modal>
-            Получить консультацию
+            Отримати консультацію
           </button>
           <!-- </div> -->
         </div>
@@ -125,10 +125,10 @@
 <div class="reviews2-image">
     <img src="./image/reviews.png" alt="reviews">
     <div class="reviews2-block">
-        <h3>Страница не найдена</h3>
+        <h3>Сторінка не знайдена</h3>
         <div class="reviews-link">
         <span>Перейти на</span>
-        <a href="/">главную</a>
+        <a href="/">головну</a>
         </div>
     </div>
     <!-- <div class="reviews-404"></div> -->
@@ -138,7 +138,7 @@
     </div>
     </main>
 
-     <footer class="footer footer-line">
+       <footer class="footer footer-line">
       <div class="container">
         <div class="footer-top">
           <div class="footer-address">
@@ -195,21 +195,21 @@
             </ul>
           </div>
           <div class="footer-services">
-            <h3>Наши услуги</h3>
+            <h3>Наші послуги</h3>
             <ul>
-              <li>Отбеливание зубов</li>
-              <li>Лечение десен</li>
-              <li>Апноэ во сне</li>
-              <li>Реставрации</li>
-              <li>Дизайн улыбки</li>
-              <li>Корневой канал</li>
-              <li>Имплантационная стоматология</li>
-              <li>Сознательная седация</li>
-              <li>Ортодонтия</li>
+              <li>Відбілювання зубів</li>
+              <li>Лікування ясен</li>
+              <li>Апное уві сні</li>
+              <li>Реставрація</li>
+              <li>Дизайн посмішки</li>
+              <li>Кореневий канал</li>
+              <li>Імплантаційна стоматологія</li>
+              <li>Свідома седація</li>
+              <li>Ортодонтія</li>
             </ul>
           </div>
           <div class="footer-dentistry">
-            <h3>Наши стоматологи</h3>
+            <h3>Наші стоматологи</h3>
             <ul>
               <li>John Doe</li>
               <li>Evan Krak</li>
@@ -218,23 +218,43 @@
             </ul>
           </div>
           <div class="footer-watch">
-            <h3>Часы работы</h3>
+            <h3>Години роботи</h3>
             <ul>
-              <li>Понедельник: 8:30 - 9:00</li>
-              <li>Вторник: 8:00 - 9:00</li>
-              <li>Среда: 8:00 - 9:00</li>
-              <li>Четверг: 8:30 - 9:00</li>
-              <li>Пятница: 10:00 - 4:00</li>
-              <li>Суббота: выходной</li>
-              <li>Воскресенье: Закрыто</li>
+              <li>Понеділок: 8:30 - 9:00</li>
+              <li>Вівторок: 8:00 - 9:00</li>
+              <li>Середа: 8:00 - 9:00</li>
+              <li>Четвер: 8:30 - 9:00</li>
+              <li>П'ятниця: 10:00 - 4:00</li>
+              <li>Субота: вихідний</li>
+              <li>Неділя: Закрито</li>
             </ul>
           </div>
         </div>
       </div>
     </footer>
     <footer class="footer-botton">
-      <p>2022 &copy; Dental Tooth Все права защищены</p>
+      <p>2022 &copy; Dental Tooth Усі права захищені</p>
     </footer>
+
+    <div class="backdrop is-hidden">
+      <div class="modal">
+        <button class="modal-button modal-btn-close" type="button">
+          <svg width="19" height="19">
+            <use href="./image/sprite.svg#icon-close-1"></use>
+          </svg>
+        </button>
+        <form class="form-modal">
+          <h2>Отримати консультацію</h2>
+          <input type="name" placeholder="Ваше ім'я" required />
+          <input type="phone" placeholder="Ваш телефон" required />
+          <button type="submit">Відправити</button>
+          <p>
+            Натискаючи кнопку, я даю свою згоду на обробку моїх персональних
+            даних
+          </p>
+        </form>
+      </div>
+    </div>
     
 
     <script src="./js/modal.js" type="module"></script>
