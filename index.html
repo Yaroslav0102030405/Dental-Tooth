@@ -14,7 +14,7 @@
       referrerpolicy="no-referrer"
     /> -->
     <!-- AOS Animate -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <!-- Bootstrap -->
     <link
@@ -134,34 +134,40 @@
       <section class="hero">
         <div class="container">
           <p class="hero-top-text">Стоматологічна клініка Dental Tooth</p>
-          <h1 data-aos="fade-right" class="hero__title">
+          <h1
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            class="hero__title"
+          >
             Безболісне лікування зубів
           </h1>
           <p class="hero__text">
             Талановита команда стоматологів, визнаних за високу якість
             стоматологічних процедур.
           </p>
-          <img data-aos="fade-left"
-            class=" hero-image"
+          <img
+            data-aos="fade-left"
+            class="hero-image"
             src="./image/hero-mob.png"
             alt="hero-mob"
           />
-          <button class="hero__btn" type="button">Записатися на прийом</button>
+          <button data-aos="fade-up" class="hero__btn" type="button">
+            Записатися на прийом
+          </button>
         </div>
       </section>
       <section class="services">
         <div class="container">
           <div class="section-flex">
-            <div data-aos="fade-down-right"
-              class="services__right"
-            >
+            <div data-aos="fade-down-right" class="services__right">
               <img src="./image/desctop-section-3.jpg" alt="врач" width="675" />
             </div>
-            <div class="services__left">
-              <h2 data-aos="fade-right" class="services__left-title">
+            <div data-aos="fade-left" class="services__left">
+              <h2 class="services__left-title">
                 Стоматологічна клініка <span>Dental Tooth</span>
               </h2>
-              <p class="services__left-text">
+              <p data-aos="fade-left" class="services__left-text">
                 Ми пропонуємо широкий спектр стоматологічних послуг у спільній
                 клініці. Вам буде надано комплексний план лікування до початку
                 будь-яких стоматологічних послуг. Щоб записатися на прийом або
@@ -187,7 +193,7 @@
         <div class="container">
           <h2 class="visually-hidden">Скрытый заголовок</h2>
           <ul class="advantages__list">
-            <li>
+            <li data-aos="zoom-in">
               <svg width="99" height="99">
                 <use href="./image/sprite.svg#icon-Group-52"></use>
               </svg>
@@ -200,7 +206,7 @@
                 доступні
               </p>
             </li>
-            <li>
+            <li data-aos="zoom-in">
               <svg width="99" height="99">
                 <use href="./image/sprite.svg#icon-Group-52-1"></use>
               </svg>
@@ -212,7 +218,7 @@
                 доступні
               </p>
             </li>
-            <li>
+            <li data-aos="zoom-in">
               <svg width="99" height="99">
                 <use href="./image/sprite.svg#icon-Group-52-2"></use>
               </svg>
@@ -227,14 +233,16 @@
       </section>
       <section class="specialists">
         <div class="container">
-          <h2 class="specialists__title">Наші спеціалісти</h2>
+          <h2 data-aos="zoom-in" class="specialists__title">
+            Наші спеціалісти
+          </h2>
           <p class="specialists__text">
             Ми побудували стоматологію на міцних опорах 22 хірургів MDS. У нашій
             команді працюють досвідчені фахівці із багаторічним досвідом роботи.
           </p>
 
           <ul class="specialists__list">
-            <li>
+            <li data-aos="fade-down-right">
               <img
                 src="./image/section-4-desctop-1.jpg"
                 alt="Игорь Протопский"
@@ -244,7 +252,7 @@
                 <p>Стоматолог</p>
               </div>
             </li>
-            <li>
+            <li data-aos="fade-down-left">
               <img
                 src="./image/section-4-desctopp-2.jpg"
                 alt="Олег Григоревич"
@@ -254,14 +262,14 @@
                 <p>Стоматолог</p>
               </div>
             </li>
-            <li>
+            <li data-aos="fade-down-right">
               <img src="./image/section-4-desctop-3.jpg" alt="София Грин" />
               <div class="specialists__list-backround">
                 <h3>Софія Грін</h3>
                 <p>Стоматолог</p>
               </div>
             </li>
-            <li>
+            <li data-aos="fade-down-left">
               <img
                 src="./image/section-4-desctop-4.jpg"
                 alt="Мария Александровна"
@@ -278,7 +286,7 @@
         <h2 class="visually-hidden">Скрытый заголовок</h2>
         <div class="container">
           <div class="wapper">
-            <div class="price__left">
+            <div data-aos="zoom-in-left" class="price__left">
               <h3 class="price__left-title">Вартість лікування від</h3>
               <p class="price__left-text">Доступні ціни на кожну процедуру</p>
               <ul>
@@ -320,9 +328,9 @@
       </section>
       <section class="blog">
         <div class="container">
-          <h2 class="blog__title">Новини Dental Tooth</h2>
+          <h2 data-aos="zoom-in" class="blog__title">Новини Dental Tooth</h2>
           <ul class="blog-list">
-            <li>
+            <li data-aos="fade-right">
               <img src="./image/section-7-1.jpg" alt="image1" /><span
                 >05 листопада 2022</span
               >
@@ -333,7 +341,7 @@
               </p>
               <a href="#">Читати далі</a>
             </li>
-            <li>
+            <li data-aos="fade-left">
               <img src="./image/section-7-2.jpg" alt="image2" /><span
                 >05 листопада 2022</span
               >
@@ -344,7 +352,7 @@
               </p>
               <a href="#">Читати далі</a>
             </li>
-            <li>
+            <li data-aos="fade-right">
               <img src="./image/section-7-3.jpg" alt="image3" />
               <div class="section-7-div-span">
                 <span>05 листопада 2022</span>
@@ -356,7 +364,7 @@
               </p>
               <a href="#">Читати далі</a>
             </li>
-            <li>
+            <li data-aos="fade-left">
               <img src="./image/section-7-4.jpg" alt="image4" /><span
                 >05 листопада 2022</span
               >
@@ -367,7 +375,7 @@
               </p>
               <a href="#">Читати далі</a>
             </li>
-            <li>
+            <li data-aos="fade-right">
               <img src="./image/section-7-5.jpg" alt="image5" /><span
                 >05 листопада 2022</span
               >
@@ -378,7 +386,7 @@
               </p>
               <a href="#">Читати далі</a>
             </li>
-            <li>
+            <li data-aos="fade-left">
               <img src="./image/section-7-1.jpg" alt="image6" /><span
                 >05 листопада 2022</span
               >
@@ -395,7 +403,12 @@
       <section class="reviews">
         <div class="container">
           <div id="carouselExample" class="carousel slide">
-            <div class="reviews-wapper">
+            <div
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              class="reviews-wapper"
+            >
               <div class="carousel-inner">
                 <h2 class="reviews__title">Що кажуть наші клієнти</h2>
                 <div class="carousel-item active">
@@ -534,7 +547,7 @@
       </section>
       <section class="entry-form">
         <div class="container">
-          <div class="entry-form-wapper">
+          <div data-aos="zoom-in" class="entry-form-wapper">
             <form class="form">
               <h2>Записатися на прийом</h2>
               <input type="name" placeholder="Ваше ім'я" required />
@@ -629,7 +642,8 @@
       </div> -->
       <!-- </div> -->
       <div class="container">
-        <div class="footer-top">
+        <div data-aos="fade-up"
+     data-aos-duration="3000" class="footer-top">
           <div class="footer-address">
             <a class="footer-logo" href="/"
               ><img src="./image/footer-logo.png" alt=""
@@ -746,10 +760,10 @@
       </div>
     </div>
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-  AOS.init();
-</script>
+      AOS.init();
+    </script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
