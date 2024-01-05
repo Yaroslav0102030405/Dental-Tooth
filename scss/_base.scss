@@ -28,16 +28,36 @@ body {
   font-family:
     Source Sans,
     Segoe UI;
-
   /* background-color: var(--white); */
   color: #fff;
-
   font-size: 16px;
   font-weight: 400;
   line-height: normal;
+  cursor: url('../image/cursor-blue.png'), auto;
+}
 
-   cursor:url("../image/cursor-blue.png"), auto;
+// add scrollbar
+.window {
+  overflow: auto;
+  // border: 1px solid #fff;
+  border-radius: 5px 0 0 5px;
+}
 
+::-webkit-scrollbar {
+  // border: 1px solid #fff;
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(89, 84, 12, 0.6615896358543417) 0%,
+    rgba(13, 156, 248, 1) 1%,
+    rgba(209, 134, 84, 0.017331932773109293) 100%
+  );
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #0e68ce;
+  // border: 1px solid #fff;
 }
 // body.modal-open {
 //   overflow: hidden;
