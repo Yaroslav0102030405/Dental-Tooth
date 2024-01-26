@@ -163,6 +163,10 @@
   /* border: 1px solid black; */
 }
 
+// .current {
+//   color: #5eb8f0;
+// }
+
 .header-menu li a.current {
   color: #5eb8f0;
 }
@@ -183,7 +187,7 @@
 }
 
 .header__botton a img {
-   @media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     width: 60%;
   }
 }
