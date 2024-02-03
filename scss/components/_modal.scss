@@ -7,7 +7,8 @@
 
   background-color: rgba(0, 0, 0, 0.2);
   padding: 20px;
-  overflow-y: scroll;
+  // overflow-y: scroll;
+  overflow: hidden;
   // opacity: 1;
 
   transition-property: opacity;
@@ -17,17 +18,8 @@
   // overflow-y: scroll;
 }
 
-// .backdrop.is-hidden {
-//   opacity: 0;
-//   pointer-events: none;
-// }
-
-// .backdrop.is-hidden .modal {
-//   transform: translate(-50% -50%) scale(1.1);
-// }
-
 .modal {
-  display: block;
+  // display: block;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -48,7 +40,11 @@
   padding-left: 28px;
   padding-right: 28px;
   padding-bottom: 34px;
-  z-index: 101;
+  z-index: 999;
+
+  // @media screen and (max-width: 768px) {
+  //   max-width: 310px;
+  // }
 }
 
 .modal-button {
@@ -170,18 +166,21 @@ form-modal h2 {
 
 .menu-content {
   // display: none;
-  height: 100%;
+  position: relative;
+  // height: 100%;
   background-color: #0e6eaa;
-  width: 80%;
+  width: 100%;
+  height: 100%;
   padding: 20px;
+  overflow: hidden;
+
+  z-index: 998;
 
   @media screen and (min-width: 768px) {
     background-color: #fff;
     width: 100%;
   }
 }
-
-
 
 // .menu-container.is-open {
 //   display: block;
