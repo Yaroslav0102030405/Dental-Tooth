@@ -1,7 +1,7 @@
 /* footer section */
 .footer {
   background: #10406f;
-      // background: linear-gradient(258deg, #dfeefc 11.01%, rgba(167, 210, 251, 0.92) 92.77%);
+  // background: linear-gradient(258deg, #dfeefc 11.01%, rgba(167, 210, 251, 0.92) 92.77%);
   padding-top: 68px;
   padding-bottom: 62px;
 
@@ -11,6 +11,11 @@
     padding-bottom: 34px;
   }
 }
+
+// .footer-logo {
+//   font-size: 20px;
+//   color: var(--title-color);
+// }
 
 .address-div {
   display: flex;
@@ -130,7 +135,6 @@
 // footer {
 //   position: relative;
 // }
-
 
 // .footer__backround {
 //   position: absolute;
